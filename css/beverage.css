@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|VT323');
+
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'VT323', monospace;
+}
+
+body {
+	background-image: url("../images/pattern.png");
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	color: #00c5ff;
+
+}
+
+h2, h3, h4, h5 {
+	font-family: 'Lobster', cursive;
+	color: #E80172;
+}
+
+header {
+	width: 100%;
+	height: 400px;
+	background-color: #E80172;
+	text-align: center;
+	margin: 0;
+	padding: 1px 0 0 0;
+	font-size: 5.2em;
+}
+
+img {
+	border-radius: 100%;
+	display: block;
+  margin: 0 auto;
+}
+
+footer {
+	background-color: #E80172;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 50%;
+	margin: 30px auto;
+	padding: 2%;
+	border-radius: 5px 90px;
+	font-size: 1.2em;
+}
+
+/*--------------------Rainbow!--------------------*/
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: #ffc0cb;}
+	40%{color: #fff26f;}
+	60%{color: #00ff00;}
+	80%{color: #00c5ff;}
+	100%{color:#ffc100;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: #ffc0cb;}
+	40%{color: #fff26f;}
+	60%{color: #00ff00;}
+	80%{color: #00c5ff;}
+	100%{color:#ffc100;}	
+}
